@@ -1,0 +1,134 @@
+@charset "utf-8";
+.btn{
+    text-decoration: none;
+    padding:10px 25px;
+    font-size:16px;
+    
+    display:inline-block;
+    margin: 30px 80px ;
+}
+body{
+    background-color:rgb(231, 231, 163);
+    border:0px;
+    
+}
+.anasayfa{
+    display:flex;
+    align-items:flex-start;
+    color:rgb(160, 8, 8);
+    gap:30px;
+    
+}
+.başlık{
+    color:rgb(160, 8, 8);
+    border:0px;
+    font-size:25px;
+    padding:10px 620px 70px;
+}
+.antalya{
+    margin:15px 25px;
+    border:white;
+    color:blue;
+}
+.index-outline{
+    background-color: rgb(231, 231, 163);
+    border:1px solid rgb(160, 8, 8);
+    color:rgb(160, 8, 8);
+}
+.index-outline:hover{
+    opacity:0.7;
+}
+.hakkimda-outline{
+    background-color:rgb(231, 231, 163);
+    border: 1px solid rgb(160, 8, 8);
+    color:rgb(160, 8, 8);
+}
+.hakkimda-outline:hover{
+    opacity:0.7;
+}
+.blog-outline{
+    background-color: rgb(231, 231, 163);
+    border:1px solid rgb(160, 8, 8);
+    color:rgb(160, 8, 8);
+}
+.blog-outline:hover{
+    opacity:0.7;
+}
+.galeri-outline{
+    background-color: rgb(231, 231, 163);
+    border:1px solid rgb(160, 8, 8);
+    color:rgb(160, 8, 8);
+}
+.galeri-outline:hover{
+    opacity:0.7;
+}
+.iletisim-outline{
+    background-color: rgb(231, 231, 163);
+    border: 1px solid rgb(160, 8, 8);
+    color:rgb(160, 8, 8);
+}
+.iletisim-outline:hover{
+    opacity:0.7;
+}
+.antalyafoto{
+    margin:30px 80px;
+    border:1px solid white;
+}
+.foto-yazı1{
+    display:flex;
+    align-items:flex-start;
+    color:rgb(160, 8, 8);
+    gap:30px;
+}
+.blog{
+    margin:30px 400px;
+}
+.blog-yazı{
+    color: #65B0C4;
+}
+.çizgi{
+    width:100%;
+    height:1.6px;
+    background-color:black;
+}
+.tablo1{
+    background-color:white;
+}
+@media screen and (max-width: 768px) {
+    #wrapper {
+    width: 100% !important;
+    padding: 10px !important;
+    box-sizing: border-box;
+}
+
+table, tr, td {
+    display: block !important;
+    width: 100% !important;
+    box-sizing: border-box;
+}
+
+   
+table tr td,
+tr td[align="center"]{
+    margin-bottom: 5px;
+    padding: 12px !important;
+}
+
+td[valign="top"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-bottom: 20px;
+}
+
+   
+.header-container table tr td {
+    text-align: center !important;
+    padding: 10px 0 !important;
+}
+    
+   
+img {
+    max-width: 100% !important;
+    height: auto !important;
+}
+}
