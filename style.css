@@ -8,19 +8,23 @@
     margin: 30px 80px ;
 }
 body{
-    background-color:rgb(231, 231, 163);
-    border:0px;
-    
+    margin:0;
+    padding:0;
+}
+.arkaplan{
+    width:100%;
+    height:150px;
+    background-color:rgb(135, 7, 7);
 }
 .anasayfa{
     display:flex;
     align-items:flex-start;
-    color:rgb(160, 8, 8);
+    color:rgb(135, 7, 7);
     gap:30px;
     
 }
 .başlık{
-    color:rgb(160, 8, 8);
+    color:rgb(135, 7, 7);
     border:0px;
     font-size:25px;
     padding:10px 620px 70px;
@@ -31,41 +35,41 @@ body{
     color:blue;
 }
 .index-outline{
-    background-color: rgb(231, 231, 163);
-    border:1px solid rgb(160, 8, 8);
-    color:rgb(160, 8, 8);
+    background-color: white;
+    border:1px solid rgb(135, 7, 7);
+    color:rgb(135, 7, 7);
 }
 .index-outline:hover{
     opacity:0.7;
 }
 .hakkimda-outline{
-    background-color:rgb(231, 231, 163);
-    border: 1px solid rgb(160, 8, 8);
-    color:rgb(160, 8, 8);
+    background-color:white;
+    border: 1px solid rgb(135, 7, 7);
+    color:rgb(135, 7, 7);
 }
 .hakkimda-outline:hover{
     opacity:0.7;
 }
 .blog-outline{
-    background-color: rgb(231, 231, 163);
-    border:1px solid rgb(160, 8, 8);
-    color:rgb(160, 8, 8);
+    background-color: white;
+    border:1px solid rgb(135, 7, 7);
+    color:rgb(135, 7, 7);
 }
 .blog-outline:hover{
     opacity:0.7;
 }
 .galeri-outline{
-    background-color: rgb(231, 231, 163);
-    border:1px solid rgb(160, 8, 8);
-    color:rgb(160, 8, 8);
+    background-color: white;
+    border:1px solid rgb(135, 7, 7);
+    color:rgb(135, 7, 7);
 }
 .galeri-outline:hover{
     opacity:0.7;
 }
 .iletisim-outline{
-    background-color: rgb(231, 231, 163);
-    border: 1px solid rgb(160, 8, 8);
-    color:rgb(160, 8, 8);
+    background-color: white;
+    border: 1px solid rgb(135, 7, 7);
+    color:rgb(135, 7, 7);
 }
 .iletisim-outline:hover{
     opacity:0.7;
@@ -77,7 +81,7 @@ body{
 .foto-yazı1{
     display:flex;
     align-items:flex-start;
-    color:rgb(160, 8, 8);
+    color:rgb(135, 7, 7);
     gap:30px;
 }
 .blog{
@@ -96,12 +100,11 @@ body{
 }
 @media screen and (max-width: 768px) {
     #wrapper {
-    width: 100% !important;
-    padding: 10px !important;
-    box-sizing: border-box;
+    width: 100% !important; 
+    padding:10px !important;
 }
 
-table, tr, td {
+table,tbody, tr, td {
     display: block !important;
     width: 100% !important;
     box-sizing: border-box;
